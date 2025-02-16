@@ -1,6 +1,6 @@
 body {
     color: #434455;
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
 }
 a {
@@ -16,13 +16,13 @@ ul, ol {
     list-style-type: none;
 }
 .logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    align-items: center;
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 .logo-dark {
     color: #2E2F42;
@@ -33,15 +33,16 @@ ul, ol {
 .header-menu {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .header-adress {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: #434455;
 }
 .link:hover,
@@ -54,20 +55,20 @@ ul, ol {
 .section-light {
     background-color: #F4F4FD;;
 }
-.title-h1 {
+.title-large {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    align-items: center;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
@@ -75,29 +76,30 @@ ul, ol {
 .button:focus {
     background-color: #404BBF;
 }
-.title-h3 {
+.title-small {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .subtitle {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
 .subtitle.light {
     color: #F4F4FD;
 }
-.title-h2 {
+.title-medium {
    font-weight: 700;
    font-size: 36px;
-   line-height: 40px;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
+   text-transform: capitalize;
    color: #2E2F42;
 }
 .item-team {
