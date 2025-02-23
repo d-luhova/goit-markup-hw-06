@@ -32,7 +32,7 @@ ul, ol {
     list-style-type: none;
 }
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -85,7 +85,7 @@ ul, ol {
     color: #2E2F42;
 }
 .menu-link {
-    display:flex
+    display:flex;
 }
 .link {
     padding: 24px 0;
@@ -162,12 +162,7 @@ footer {
     color: #2E2F42;
     margin-bottom: 8px;
 }
-.title-small .benefits {
-    margin-bottom: 8px;
-}
-.title-small .portfolio {
-    margin-bottom: 8px;
-}
+
 .subtitle {
     font-weight: 400;
     font-size: 16px;
