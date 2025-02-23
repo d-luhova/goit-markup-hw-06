@@ -37,6 +37,7 @@ ul, ol {
     margin: 0 auto;
 }
 .header {
+    display: flex;
     border-bottom: 1px solid #E7E9FC;
 }
 .header .container {
@@ -64,6 +65,7 @@ ul, ol {
     margin-right: 76px;
 }
 .logo.footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 .logo-dark {
@@ -83,6 +85,9 @@ ul, ol {
     color: #2E2F42;
 }
 .menu-link {
+    display:flex
+}
+.link {
     padding: 24px 0;
 }
 .header-adress {
@@ -100,6 +105,7 @@ ul, ol {
 .section.dark.hero {
     padding: 188px 0;
 }
+
 .link:hover,
 .link:focus {
     color: #404BBF;
@@ -156,10 +162,10 @@ footer {
     color: #2E2F42;
     margin-bottom: 8px;
 }
-.title-small.benefits {
+.title-small .benefits {
     margin-bottom: 8px;
 }
-.title-small.portfolio {
+.title-small .portfolio {
     margin-bottom: 8px;
 }
 .subtitle {
