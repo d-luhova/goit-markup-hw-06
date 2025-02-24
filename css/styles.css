@@ -102,21 +102,21 @@ ul, ol {
     color: #434455;
     
 }
-.section.dark.hero {
+.section {
+    padding: 120px 0;
+}
+.section-hero {
     padding: 188px 0;
+    background-color: #2E2F42;
 }
 
 .link:hover,
 .link:focus {
     color: #404BBF;
 }
-section {
-    padding: 120px 0;
-}
-footer {
+
+.footer-block {
     padding: 100px 0;
-}
-.section.dark {
     background-color: #2E2F42;
 }
 .section.light {
@@ -173,6 +173,11 @@ footer {
 .subtitle.light {
     color: #F4F4FD;
 }
+.subtitle.light.footer {
+    display: block;
+    padding-top: 16px;
+    margin-right: 864px;
+}
 .title-medium {
    font-weight: 700;
    font-size: 36px;
@@ -224,11 +229,7 @@ footer {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.subtitle.light.footer {
-    display: block;
-    padding-top: 16px;
-    margin-right: 864px;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
