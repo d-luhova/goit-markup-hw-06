@@ -99,10 +99,10 @@ ul, ol {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
     transition-property: color;
-    color: #404bbf
+    color: #2E2F42;
 }
 
-.link-menu:hover:after {
+.link-menu.current::after {
     transform: color;
     position: absolute;
     bottom: -1px;
@@ -113,6 +113,12 @@ ul, ol {
     height: 4px;
     border-radius: 2px;
     background-color: #404BBF;
+ }
+
+ .link-menu:hover,
+ .link-menu:focus {
+
+    color: #404BBF;
  }
 
 .link {
@@ -142,7 +148,7 @@ ul, ol {
     margin: auto;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/background/people-office\ 1.jpg);
+    url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
