@@ -101,7 +101,14 @@ ul, ol {
     transition-property: color;
     color: #2E2F42;
 }
+ .link-menu:hover,
+ .link-menu:focus {
 
+    color: #404BBF;
+ }
+.current {
+    color: #404BBF;
+}
 .link-menu.current::after {
     transform: color;
     position: absolute;
@@ -115,11 +122,7 @@ ul, ol {
     background-color: #404BBF;
  }
 
- .link-menu:hover,
- .link-menu:focus {
 
-    color: #404BBF;
- }
 
 .link {
     padding: 24px 0;
