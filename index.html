@@ -577,8 +577,7 @@
         <div class="form-footer-container">
           <p class="social-name imput">Subscribe</p>
           <form class="footer-form">
-            <div>
-              <label for="footer-imput"></label>
+            <label class="">
               <input
                 type="email"
                 name="email"
@@ -586,8 +585,14 @@
                 placeholder="E-mail"
                 id="footer-imput"
               />
-            </div>
-            <button class="footer-button" type="submit">Subscribe</button>
+            </label>
+
+            <button class="footer-button" type="submit">
+              Subscribe
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -602,13 +607,13 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="form-modal-container">
-            <label for="username" class="modal-text">Name</label>
+            <label for="user-name" class="modal-text">Name</label>
             <div class="modal-wrapper">
               <input
                 class="imput-modal"
                 type="text"
-                name="username"
-                id="username"
+                name="user-name"
+                id="user-name"
               />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#person"></use>
@@ -634,17 +639,17 @@
             </div>
           </div>
           <div class="comment-container">
-            <label for="comment" class="modal-text">Comment</label>
+            <label for="user-comment" class="modal-text">Comment</label>
             <textarea
               class="imput-modal comment"
-              name="comment"
+              name="user-comment"
               placeholder="Text input"
-              id="comment"
+              id="user-comment"
             ></textarea>
           </div>
           <div class="checkbox-container">
             <input
-              class="visually-hidden"
+              class="visually-hidden checkbox-form"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
