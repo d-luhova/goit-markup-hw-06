@@ -433,7 +433,8 @@ ul, ol {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} 
+
 .backdrop.is-open {
     pointer-events: auto;
     opacity: 1;
@@ -518,6 +519,9 @@ ul, ol {
     padding-left: 38px;
     outline: transparent;
     background-color: transparent;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     
 }
 .comment-container{
@@ -527,14 +531,13 @@ ul, ol {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
     height: 120px;
     padding: 8px 16px;
     resize: none;
     
 }
 textarea::placeholder {
-    color: #2E2F4266;
+    color: rgba(46, 47, 66, 0.4);
     font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
@@ -582,7 +585,6 @@ textarea::placeholder {
     background: #404BBF;
 }
 .modal-text.checkbox {
-    display: flex;
     align-items: center;
     gap: 8px;
 }
