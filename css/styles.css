@@ -534,6 +534,7 @@ ul, ol {
     height: 120px;
     padding: 8px 16px;
     resize: none;
+    color: rgba(46, 47, 66, 0.4);
     
 }
 textarea::placeholder {
