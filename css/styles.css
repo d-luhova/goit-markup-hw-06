@@ -219,7 +219,7 @@ ul, ol {
     margin: auto;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/background.jpg);
+    url('../images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -229,6 +229,11 @@ ul, ol {
     }
     @media only screen and (min-width: 1156px) {
         padding: 188px 0;
+    }
+    @media (min-resolution: 192dpi) {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/background@2x.jpg');
+        
     }
 
 }
@@ -291,8 +296,6 @@ ul, ol {
     margin: auto;
     box-shadow: 0px 4px 4px 0px #00000026;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    @media only screen and (min-width: 1156px) {}
 }
 .button:hover,
 .button:focus {
@@ -363,16 +366,17 @@ ul, ol {
     justify-content: center;
     row-gap: 72px;
     column-gap: 24px;
-    max-width: 264px;
+    width: 264px;
     margin: 0 auto;
 
     @media screen and (min-width: 768px) and (max-width: 1158px) {
         row-gap: 64px;
-        max-width: 552px;
+        width: 552px;
     }
     
     @media screen and (min-width: 1158px) {
         flex-wrap: nowrap;
+        width: 1128px;
 
     }
 }
@@ -417,10 +421,7 @@ ul, ol {
 .socials-link.bottom:focus {
     background-color: #31D0AA;
 }
-@media not (hover: hover) {
-    .socials-link.bottom:active {
-    background-color: #31D0AA;
-    }
+
 .socials-link.bottom {
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    transition-duration: 250ms;
