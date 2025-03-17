@@ -1,8 +1,3 @@
-
-.hide {
-    display: none;
-}
-
 *,
 *::before,
 *::after {
@@ -154,7 +149,7 @@ ul, ol {
     color: #404BBF;
 }
 .link-menu.current::after {
-    transform: color;
+    
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -164,9 +159,9 @@ ul, ol {
     height: 4px;
     border-radius: 2px;
     background-color: #404BBF;
+    
  }
-
-
+ 
 
 .link {
     padding: 24px 0;
@@ -332,8 +327,6 @@ ul, ol {
     }
 }
 
-
-
 .subtitle {
     font-weight: 400;
     font-size: 16px;
@@ -358,7 +351,6 @@ ul, ol {
    color: #2E2F42;
    margin-bottom: 72px;
 }
-
 
 .team-block {
     display: flex;
@@ -555,7 +547,6 @@ ul, ol {
     }
 }
 
-
 .container-footer {
     display: flex;
     align-items: center;
@@ -659,7 +650,6 @@ ul, ol {
 
 } 
 
-
 .backdrop.is-open {
     pointer-events: auto;
     opacity: 1;
@@ -712,7 +702,6 @@ ul, ol {
 .close-button.menu {
     background-color: #FFFFFF;
     border: 1px solid #E7E9FC;
-
 }
 
 .close-button:hover,
@@ -789,7 +778,7 @@ textarea::placeholder {
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
-    letter-spacing: 0.4;
+    letter-spacing: 0.4em;
 
 }
 .imput-modal:focus {
@@ -830,7 +819,6 @@ textarea::placeholder {
 .imput-modal:focus + .modal-icon {
     fill: #4D5AE5;
 }
-
 
 .modal-wrapper {
     position: relative;
